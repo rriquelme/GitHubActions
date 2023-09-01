@@ -4,6 +4,7 @@ on:
     types: [opened]
 jobs:
   auto-assign:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: 'Auto-assign issue'
